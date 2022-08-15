@@ -37,7 +37,7 @@ const App = () => {
           placeholder="Search for movies"
         />
         <img
-          src={FaSistrix} height='100px' width='100px'
+          src={FaSistrix} 
           alt="search"
           onClick={() => searchMovies(searchTerm)}
         />
